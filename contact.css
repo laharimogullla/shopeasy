@@ -1,0 +1,218 @@
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	color: black;
+}
+.orange{
+	color: orange;
+}
+.bg1{
+	background: white;
+	padding: 5px 0px;
+}
+
+.navbar2 ul li{
+    list-style: none;
+	align-items: center;
+	display: inline;
+
+}
+.navbar2 ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding-left: 20px;
+}
+.navbar3 i{
+	padding-left: 20px;
+}
+.bg2{
+	background-image: url(bg2.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0px;
+}
+.contactbanner{
+	color: white;
+	width: 60%;
+}
+.contactbanner h1{
+	font-weight: bold;
+}
+.contactbanner h4{
+	font-size: 14px;
+	color: orange;
+}
+.main1{
+	display: flex;
+	gap: 20px;
+	margin-top: 30px;
+}
+.main2{
+	display: flex;
+    gap: 20px;
+    margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+.main3{
+	display: flex;
+	gap: 20px;
+}
+.contact1 i{
+	font-size: 30px;
+	color: orange;
+}
+.contact2 h4{
+	color: grey;
+	font-size: 14px;
+}
+.contact2 h5{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.contact3 i{
+	font-size: 30px;
+	color: orange;
+}
+.contact4 h4{
+	color: grey;
+	font-size: 14px;
+}
+.contact4 h5{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.contact5 i{
+	font-size: 30px;
+	color: orange;
+}
+.contact6 h4{
+	color: grey;
+	font-size: 14px;
+}
+.contact6 h5{
+	font-weight: bold;
+	font-size: 15px;
+}
+.main4{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.name h3{
+   font-size: 14px;
+}
+.mail h3{
+   font-size: 14px;
+}
+.subject h3{
+   font-size: 14px;
+}
+.message h3{
+   font-size: 14px;
+}
+.btn1{
+	border: none;
+	background-color: orange;
+	color: white;
+	padding: 5px 20px;
+	border-radius: 5px;
+}
+.contactform{
+	border: 2px solid grey;
+	padding: 50px;
+}
+.map{
+	margin-top: 50px;
+}
+.last{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.contactform input{
+     padding: 3px 50px 3px 2px;
+}
+.name h3{
+	margin-top: 20px;
+}
+.mail h3{
+	margin-top: 20px;
+}
+.subject h3{
+	margin-top: 20px;
+}
+.message h3{
+	margin-top: 20px;
+}
+.submit button{
+	margin-top: 20px;
+}
+
+.bg3{
+	background-color: rgb(7, 4, 36);
+	padding: 40px;
+	margin-top: 30px;
+}
+.last2 ul li{
+	list-style: none;
+}
+.last2 ul li a{
+	text-decoration: none;
+	color: white;
+	line-height: 25px;
+}
+.last3 i{
+	font-size: 25px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.last3 h3{
+	margin-left: 20px;
+}
+.span{
+	color: orange;
+}
+.last1 h4{
+	font-size: 23px;
+	margin-top: 20px;
+}
+.copyright h3{
+	color: white;
+	text-align: right;
+	font-size: 15px;
+}
+.bg4{
+	background-color: rgb(7, 4, 36);
+	padding: 20px 0px;
+	margin-top: 2px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 468px){
+	
+		.main4{
+			display: block;
+		}
+	.map iframe{
+		width: 350px;
+	}
+	.last{
+		display: block;
+	}
+	.contactform input{
+     padding: 3px 30px 3px 2px;
+}
+.contactform{
+	margin-top: 50px;
+}
+.navbar2 ul{
+	padding: 0px;
+}
+.navbar2 ul li a{
+	padding-left: 10px;
+}
+}

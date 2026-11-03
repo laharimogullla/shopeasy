@@ -1,0 +1,283 @@
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	color: black;
+}
+.orange{
+	color: orange;
+}
+.bg1{
+	background: white;
+	padding: 5px 0px;
+}
+
+.navbar2 ul li{
+    list-style: none;
+	align-items: center;
+	display: inline;
+
+}
+.navbar2 ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding-left: 20px;
+}
+.bg2{
+	background-image: url(bg2.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 80px 0px;
+}
+.aboutbanner h4{
+	font-size: 17px;
+	color: orange;
+}
+.aboutbanner h1{
+	color: white;
+}
+.aboutbanner p{
+	color: white;
+}
+.bg3{
+	background-color: white;
+	padding: 30px 0px;
+}
+.main1{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.main2{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.main3{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.quality{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.choose1 i{
+	font-size: 60px;
+	color: orange;
+
+}
+.choose2 h2{
+	font-size: 25px;
+}
+.choose2 h3{
+	font-size: 15px;
+	color: grey;
+}
+.choose3 i{
+	font-size: 60px;
+	color: orange;
+
+}
+.choose4 h2{
+	font-size: 25px;
+}
+.choose4 h3{
+	font-size: 15px;
+	color: grey;
+}
+.choose5 i{
+	font-size: 60px;
+	color: orange;
+
+}
+.choose6 h2{
+	font-size: 25px;
+}
+.choose6 h3{
+	font-size: 15px;
+	color: grey;
+}
+.choose h1{
+   text-align: center;
+}
+
+.mission2 h3{
+	font-weight: bold;
+}
+
+.mission{
+	display: flex;
+	justify-content: space-between;
+	gap: 80px;
+	align-items: center;
+}
+.mission1 img{
+	width: 400px;
+}
+.mission2 p{
+	margin-top: 20px;
+}
+.bg4{
+	background-color: white;
+	padding: 50px;
+}
+.btn{
+	border: none;
+	background-color: orange;
+	color: white;
+	margin-top: 20px;
+}
+.main4{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-top: 30px;
+}
+.bg5{
+	background-color: white;
+	padding: 50px;
+}
+.values1 i{
+   font-size: 50px;
+   color: orange;
+}
+.values2 i{
+   font-size: 50px;
+   color: blue;
+}
+.values3 i{
+   font-size: 50px;
+   color: green;
+}
+.values4 i{
+   font-size: 50px;
+   color: violet;
+}
+.values h2{
+	font-weight: bold;
+}
+.story p{
+	width: 50%;
+	margin-top: 30px;
+}
+.story h2{
+	font-weight: bold;
+}
+.bg6{
+	background-image: url(bg7.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+}
+.last{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.bg7{
+	background-color: rgb(7, 4, 36);
+	padding: 40px;
+}
+.last2 ul li{
+	list-style: none;
+}
+.last2 ul li a{
+	text-decoration: none;
+	color: white;
+	line-height: 25px;
+}
+.last3 i{
+	font-size: 25px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.last3 h3{
+	margin-left: 20px;
+}
+.span{
+	color: orange;
+}
+.last1 h4{
+	font-size: 23px;
+	margin-top: 20px;
+}
+.copyright h3{
+	color: white;
+	text-align: right;
+	font-size: 15px;
+}
+.bg8{
+	background-color: rgb(7, 4, 36);
+	padding: 20px 0px;
+	margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 468px){
+	.navbar{
+       display: block;
+	}
+	.aboutbanner{
+		display: block;
+	}
+	.quality{
+		display: block;
+	}
+	.mission{
+		display: block;
+	}
+	.mission1 img{
+		width: 100%;
+	}
+	.mission2{
+		margin-top: 30px;
+		text-align: center;
+	}
+	.main4{
+		display: block;
+	}
+	.values h2{
+		text-align: center;
+	}
+	.story p{
+		width: 100%;
+	}
+	.bg6{
+		width: 100%;
+		background-size: cover;
+		max-height: 300px;
+		height: 300px;
+		padding: 10px;
+		object-fit: cover;
+	}
+	.last{
+		display: block;
+	}
+	.navbar2 ul{
+		padding: 0px;
+	}
+	.navbar2 ul li a{
+		padding-left:  10px;
+	} 
+}
