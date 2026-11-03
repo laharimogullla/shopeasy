@@ -367,6 +367,56 @@
 
 
 
+@media screen and (min-width: 320px) and (max-width: 468px){
+	.homebanner{
+		display: block;
+	}
+	.freeshipping{
+		display: block;
+		text-align: center;
+	}
+	.main4{
+		display: block;
+      text-align: center;
+	}
+	.main5{
+		display: block;
+		text-align: center;
+	}
+	.main9{
+		display: block;
+	}
+	.last{
+		display: block;
+	}
+	.new h1{
+		font-size: 35px;
+	}
+	.featured2{
+		margin-top: 30px;
+	}
+	.featured3{
+		margin-top: 30px;
+	}
+	.featured4{
+		margin-top: 30px;
+	}
+	.homebanner1{
+		text-align: center;
+		width: 100%;
+	}
+	.homebanner2{
+		margin-top: 40px;
+		margin-left: 20px;
+	}
+	.btn1{
+		padding: 10px 30px;
+	}
+}
+
+
+
+
 
 
 
